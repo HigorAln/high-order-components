@@ -11,5 +11,5 @@ export function withAuth<P>(fn: GetServerSideProps<P>) {
     //TODO
 
     return await fn(ctx);
-  };
+  }
 }
